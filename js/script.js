@@ -19,4 +19,5 @@ else {
     saleTicket = normalTicket;
 };
 
+saleTicket = saleTicket.toFixed(2);
 document.getElementById("ticket").innerHTML = saleTicket;
